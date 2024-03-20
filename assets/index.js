@@ -13,6 +13,6 @@ $.get("https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vx8&a
         
         if (typeof data.recenttracks.track[0]["@attr"] == "undefined")
         {
-          document.getElementById("np").innerHTML = ("absolutely fucking nothing")
+          document.getElementById("np").innerHTML = ("nothing")
         }
 });
